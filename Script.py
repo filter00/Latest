@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is Minato , I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs</blockquote></b>"""
+Mʏ Nᴀᴍᴇ Is COA, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs</blockquote></b>"""
 
     HELP_TXT = """<b><blockquote>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>"""
@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>""
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: #Offline</blockquote></b>"""
 
     SOURCE_TXT = """<b><blockquote>ɴᴏᴛᴇ:
-- <a href="https://graph.org/animecoa">Anime Life</a></blockquote></b>"""
+- <a href="https://t.me/animecoa">Anime Life</a></blockquote></b>"""
 
 
     KUSHAL_TXT = """ 
