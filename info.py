@@ -51,15 +51,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 premium = environ.get('PREMIUM_LOGS', '-1001424329361')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'goo.aslink.in')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', 'c5ecbd7b5e088fd1c8b755f331d055c27d3b2fa7')
-SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'tnshort.net')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', '50f43e250ff1ea5d138bcde94cf715d36cde5ac8')
+SHORT_MODE = is_enabled((environ.get("SHORT_MODE","True")), False)
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Niko_Roben")
-VERIFY2_URL = environ.get('VERIFY2_URL', "goo.aslink.in")
-VERIFY2_API = environ.get('VERIFY2_API', "c5ecbd7b5e088fd1c8b755f331d055c27d3b2fa7")
+VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
+VERIFY2_API = environ.get('VERIFY2_API', "50f43e250ff1ea5d138bcde94cf715d36cde5ac8")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'goo.aslink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c5ecbd7b5e088fd1c8b755f331d055c27d3b2fa7')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
