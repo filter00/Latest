@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is {user}, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs</blockquote></b>"""
+Mʏ Nᴀᴍᴇ Is Minato , I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs</blockquote></b>"""
 
     HELP_TXT = """<b><blockquote>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>"""
@@ -15,7 +15,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>""
 
 
     KUSHAL_TXT = """ 
-<b><blockquote>🔥 
+<b><blockquote>🔥
 
 ➻ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ
 ➻ ᴅɪʀᴇᴄᴛ ғɪʟᴇs
