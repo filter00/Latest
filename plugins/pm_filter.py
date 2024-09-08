@@ -973,11 +973,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(bot, userid, f"https://telegram.me/{temp.U_NAME}?start=", 'send_all')),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/ANKIT3690")
           ]]
                         await client.send_message(
                             chat_id=query.from_user.id,
-                            text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                            text="<b>हर 1 दिन में 60 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\n Verify to get unlimited movies, only 60s verification 🥲\n\n If verified click again on button </b>",
                             protect_content=True if ident == 'checksubp' else False,
                             disable_web_page_preview=True,
                             parse_mode=enums.ParseMode.HTML,
@@ -1487,7 +1487,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🎁 ᴄʜᴇᴄᴋ ᴘʟᴀɴs 🎁', callback_data='check'), 
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://t.me/ANKIT3690"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1567,9 +1567,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/ANKIT3690")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ONLY FOR PREMIUM ☘️', url="https://t.me/ANKIT3690"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1594,9 +1594,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/ANKIT3690")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://t.me/ANKIT3690"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
