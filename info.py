@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20678315'))
-API_HASH = environ.get('API_HASH', '5522342962f32f8fb46903effb5ce41f')
+API_ID = int(environ.get('API_ID', '12512870')
+API_HASH = environ.get('API_HASH', '01e4639ae903f5d4a7b0876e5a3ea0a1')
 BOT_TOKEN = environ.get('BOT_TOKEN', "5064940449:AAGGY_HibOrnRy-pUY7QhrcsKJGG6YQUSLY")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
@@ -60,9 +60,9 @@ IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Niko_Roben")
 VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
 VERIFY2_API = environ.get('VERIFY2_API', "50f43e250ff1ea5d138bcde94cf715d36cde5ac8")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'goo.aslink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c5ecbd7b5e088fd1c8b755f331d055c27d3b2fa7')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '50f43e250ff1ea5d138bcde94cf715d36cde5ac8')
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
